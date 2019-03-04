@@ -1,4 +1,4 @@
-function! Timer()
+function! Timer#start()
     let dict = {'count': input("時間を設定してね ")}
     function! dict.countdown(timer) abort
         let self.count -= 1
